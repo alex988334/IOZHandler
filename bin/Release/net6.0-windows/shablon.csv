@@ -1,0 +1,129 @@
+NETS
+ВО;ВС;ГС;ДК;СС;ТС;ЭС
+
+ВО
+Самотёчный участок;Напорный участок;Колодец;Примитив
+
+ВС
+Источник водоснабжения;Участок водопроводной сети;Узел;Водопроводный колодец с гидрантом;Потребитель;Примитив
+
+ГС
+Узел;Участок;Потребитель;Примитив
+
+ДК
+Колодец;Самотёчный участок;Напорный участок;Примитив
+
+СС
+Узел;Участок;Потребитель;Примитив
+
+ТС
+Источник;Участок;Узел;Обобщенный потребитель;Примитив
+
+ЭС
+Подстанция;РП_ТП_ПП;Участок;Узел;Абонент;Примитив
+
+
+ВО;Самотёчный участок
+sys;G_KSIO_name;N_Etap;N_Meropriyatiya;D_fixed_с;L;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ВО;Напорный участок
+sys;G_KSIO_name;N_Etap;N_Meropriyatiya;D;L;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ВО;Колодец
+sys;G_KSIO_name;N_Etap;N_Meropriyatiya;N_T_P;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ВО;Примитив
+sys;G_KSIO_name;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+
+ВС;Источник водоснабжения
+sys;G_KSIO_name;G_Etap;G_Meropriyatiya;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ВС;Участок водопроводной сети
+sys;G_KSIO_name;V_Etap;V_Meropriyatiya;D;L;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ВС;Узел
+sys;G_KSIO_name;V_Etap;V_Meropriyatiya;G_point_in;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ВС;Водопроводный колодец с гидрантом
+sys;G_KSIO_name;V_Etap;V_Meropriyatiya;G_point_in;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ВС;Потребитель
+sys;G_KSIO_name;V_Etap;V_Nov_Rek_Dem;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ВС;Примитив
+sys;G_KSIO_name;G_Num_obrash;G_layer_etap;G_layer_sito;G_visible
+
+
+ГС;Узел
+sys;G_KSIO_name;K_Etap;K_Meropriyatiya;G_point_in;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ГС;Участок
+sys;G_KSIO_name;K_Etap;K_Meropriyatiya;diam;V_L;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ГС;Потребитель
+sys;G_KSIO_name;K_Etap;K_Meropriyatiya;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ГС;Примитив
+sys;G_KSIO_name;G_Num_obrash;G_layer_etap;G_layer_sito,G_visible
+
+
+ДК;Колодец
+sys;G_KSIO_name;V_Etap;V_Meropriyatiya;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ДК;Самотёчный участок
+sys;G_KSIO_name;V_Etap;V_Meropriyatiya;D_fixed_с;L;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ДК;Напорный участок
+sys;G_KSIO_name;V_Etap;V_Meropriyatiya;D;L;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ДК;Примитив
+sys;G_KSIO_name;G_Num_obrash;G_layer_etap;G_layer_sito;G_visible
+
+
+СС;Узел
+sys;G_KSIO_name;N_Etap;N_Meropriyatiya;G_point_in;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+СС;Участок
+sys;G_KSIO_name;N_Etap;N_Meropriyatiya;L;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+СС;Потребитель
+sys;G_KSIO_name;N_Etap;N_Meropriyatiya;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+СС;Примитив
+sys;G_KSIO_name;G_Num_obrash;G_layer_etap;G_layer_sito;G_visible
+
+
+ТС;Источник
+sys;G_KSIO_name;G_Etap;G_Meropriyatiya;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ТС;Участок
+sys;G_KSIO_name;V_Etap;V_Meropriyatiya;L;Dpod;Dobr;V_Vid seti;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ТС;Узел
+sys;G_KSIO_name;V_Etap;V_Meropriyatiya;G_point_in;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ТС;Обобщенный потребитель
+sys;G_KSIO_name;V_Etap;V_Nov_Rek_Dem;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ТС;Примитив
+sys;G_KSIO_name;G_Num_obrash;G_layer_etap;G_layer_sito;G_visible
+
+
+ЭС;Подстанция
+sys;G_KSIO_name;Этап строительства;Назначение;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ЭС;РП_ТП_ПП
+sys;G_KSIO_name;Этап строительства;Назначение;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ЭС;Участок
+sys;G_KSIO_name;Этап;Назначение кабеля;Класс напряжения;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ЭС;Узел
+sys;G_KSIO_name;Этап;Назначение;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ЭС;Абонент
+sys;G_KSIO_name;Этап;Назначение;G_Num_obrash;G_obj_po_obrash;G_layer_etap;G_layer_sito;G_visible
+
+ЭС;Примитив
+sys;G_KSIO_name;G_Num_obrash;G_layer_etap;G_layer_sito;G_visible

@@ -1,0 +1,41 @@
+﻿<EditActions>
+    <EditAction>
+        Name: AddObject
+        <Base>
+            BaseId: -1
+            Record: add_blank
+        </Base>
+    </EditAction>
+</EditActions>
+<Types>
+    <Type>
+        Key: 1
+        Name: Границы_обрезки_зон
+        <Modes>
+            <Mode>
+                Name: Водоотведение
+            </Mode>
+            <Mode>
+                Name: Водоснабжение
+            </Mode>
+            <Mode>
+                Name: Газоснабжение
+            </Mode>
+            <Mode>
+                Name: Дождевая канализация
+            </Mode>
+            <Mode>
+                Name: Сети связи
+            </Mode>
+            <Mode>
+                Name: Теплоснабжение
+            </Mode>
+            <Mode>
+                Name: Электроснабжение
+            </Mode>
+            <Mode>
+                Name: Граница зоны рассмотрения КСИО
+            </Mode>
+        </Modes>
+    </Type>
+</Types>

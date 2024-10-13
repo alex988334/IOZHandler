@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="CheckModule\CheckControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EditorConditionGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ExportModule\ExportControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ExportModule\SQLModule\FieldFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ExportModule\SQLModule\GroupFiltersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ExportModule\TypeModule\TypeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ExportModule\SQLModule\IndexFilterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MapModule\MapControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MyRootControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="RuleModule\RuleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ExportModule\SQLModule\SQLControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

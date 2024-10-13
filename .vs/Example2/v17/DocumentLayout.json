@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\VS\\Example2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93C6D7D0-239E-4121-A757-C09C611F6129}|Example2.csproj|o:\\vs\\example2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C6D7D0-239E-4121-A757-C09C611F6129}|Example2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C6D7D0-239E-4121-A757-C09C611F6129}|Example2.csproj|o:\\vs\\example2\\exportmodule\\sqlmodule\\sqlexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C6D7D0-239E-4121-A757-C09C611F6129}|Example2.csproj|solutionrelative:exportmodule\\sqlmodule\\sqlexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C6D7D0-239E-4121-A757-C09C611F6129}|Example2.csproj|o:\\vs\\example2\\exportmodule\\exportcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C6D7D0-239E-4121-A757-C09C611F6129}|Example2.csproj|solutionrelative:exportmodule\\exportcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C6D7D0-239E-4121-A757-C09C611F6129}|Example2.csproj|o:\\vs\\example2\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C6D7D0-239E-4121-A757-C09C611F6129}|Example2.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C6D7D0-239E-4121-A757-C09C611F6129}|Example2.csproj|o:\\vs\\example2\\exportmodule\\typemodule\\groupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C6D7D0-239E-4121-A757-C09C611F6129}|Example2.csproj|solutionrelative:exportmodule\\typemodule\\groupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GroupFilter.cs",
+              "DocumentMoniker": "O:\\VS\\Example2\\ExportModule\\TypeModule\\GroupFilter.cs",
+              "RelativeDocumentMoniker": "ExportModule\\TypeModule\\GroupFilter.cs",
+              "ToolTip": "O:\\VS\\Example2\\ExportModule\\TypeModule\\GroupFilter.cs",
+              "RelativeToolTip": "ExportModule\\TypeModule\\GroupFilter.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAmwFYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:34:18.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "O:\\VS\\Example2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "O:\\VS\\Example2\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwIcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:35:31.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "O:\\VS\\Example2\\Settings.cs",
+              "RelativeDocumentMoniker": "Settings.cs",
+              "ToolTip": "O:\\VS\\Example2\\Settings.cs",
+              "RelativeToolTip": "Settings.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAA5wK8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:19:30.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLExporter.cs",
+              "DocumentMoniker": "O:\\VS\\Example2\\ExportModule\\SQLModule\\SQLExporter.cs",
+              "RelativeDocumentMoniker": "ExportModule\\SQLModule\\SQLExporter.cs",
+              "ToolTip": "O:\\VS\\Example2\\ExportModule\\SQLModule\\SQLExporter.cs",
+              "RelativeToolTip": "ExportModule\\SQLModule\\SQLExporter.cs",
+              "ViewState": "AQIAADEBAAAAAAAAAAAAAKUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T11:55:58.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExportControl.cs",
+              "DocumentMoniker": "O:\\VS\\Example2\\ExportModule\\ExportControl.cs",
+              "RelativeDocumentMoniker": "ExportModule\\ExportControl.cs",
+              "ToolTip": "O:\\VS\\Example2\\ExportModule\\ExportControl.cs",
+              "RelativeToolTip": "ExportModule\\ExportControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAL8BAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T11:26:29.438Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

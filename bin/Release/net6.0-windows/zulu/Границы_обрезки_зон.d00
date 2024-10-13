@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<database xmlns="http://politerm.com/schemas/zb" version="10.0" baseid="1" display-name="Границы_обрезки_зон">
+	<option name="orig-path" value="O:\Границы_обрезки_зон.d00" />
+	<option name="schema-cache" value="0" />
+	<option name="lastqryid" value="5" />
+	<option name="login-type" value="0" />
+	<conn id="5" name="База данных SQLite 1" type="sqlite" code="S" connstr="O:\Границы_обрезки_зон.sqlite" />
+	<table id="2" conn="5" name="Границы_обрезки_зон" />
+	<book id="3" name="Коммуникации_типы" type="simple" autosort="true">
+		<records>
+			<record key="1" value="Водоотведение" />
+			<record key="2" value="Водоснабжение" />
+			<record key="3" value="Газоснабжение" />
+			<record key="4" value="Дождевая канализация" />
+			<record key="5" value="Сети связи" />
+			<record key="6" value="Теплоснабжение" />
+			<record key="7" value="Электроснабжение" />
+			<record key="8" value="Зона рассмотрения КСИО" />
+		</records>
+	</book>
+	<query id="4" name="Основной" type="query" default="true">
+		<tblref id="1" table="2" name="T1" layout-rect="12 12 148 124" />
+		<basefld tblref="1" name="Sys" />
+		<field id="3" tblref="1" name="Sys" display-name="Sys" />
+		<field id="4" tblref="1" name="SITO_type" display-name="Граница под" book="3" />
+		<field id="5" tblref="1" name="Territory_list" display-name="Территории в границе" />
+	</query>
+	<form id="4" fid="5" query="4" type="S" />
+</database>

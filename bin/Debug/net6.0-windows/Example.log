@@ -1,0 +1,49 @@
+
+07.05.2024 8:34:06 ERROR message: Невозможно добавить или вставить элемент 'Правила' в несколько позиций. Сначала удалите его из текущей позиции или создайте его клон. (Parameter 'node')
+   at System.Windows.Forms.TreeNodeCollection.AddInternal(TreeNode node, Int32 delta)
+   at Example2.EditorConditionGroupForm.EditorConditionGroupForm_Load(Object sender, EventArgs e) in O:\VS\Example2\EditorConditionGroupForm.cs:line 253
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(msoloop reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(msoloop reason, ApplicationContext context)
+   at System.Windows.Forms.Application.RunDialog(Form form)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at Example2.ExportControl.editGroupButton_Click(Object sender, EventArgs e) in O:\VS\Example2\ExportControl.cs:line 541
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, WM msg, IntPtr wparam, IntPtr lparam)
+   at Interop.User32.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.Interop.Mso.IMsoComponentManager.FPushMessageLoop(UIntPtr dwComponentID, msoloop uReason, Void* pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(msoloop reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(msoloop reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Example2.Program.Main() in O:\VS\Example2\Program.cs:line 18
+
+22.05.2024 14:48:31 ERROR message: Object reference not set to an instance of an object.
+   at Example2.ThemeExporter.exportGroupsConditionsPolitermUpdate() in O:\VS\Example2\ThemeExporter.cs:line 118
+   at Example2.ThemeExporter.exportZone() in O:\VS\Example2\ThemeExporter.cs:line 90
+   at Example2.ThemeExporter.exportByThemes() in O:\VS\Example2\ThemeExporter.cs:line 80
+   at Example2.ThemeExporter.run() in O:\VS\Example2\ThemeExporter.cs:line 40
+   at Example2.ExportControl.expRunButton_Click(Object sender, EventArgs e) in O:\VS\Example2\ExportControl.cs:line 426
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, WM msg, IntPtr wparam, IntPtr lparam)
+   at Interop.User32.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.Interop.Mso.IMsoComponentManager.FPushMessageLoop(UIntPtr dwComponentID, msoloop uReason, Void* pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(msoloop reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(msoloop reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Example2.Program.Main() in O:\VS\Example2\Program.cs:line 18
